@@ -40,18 +40,16 @@ behind it. Nothing at home is exposed directly.
 | [**trimui...controller**](https://github.com/Goober-nation/trimui_as_bluetooth_controller) | Handheld console turned into a Bluetooth gamepad | `C` `BlueZ` `ARM` |
 
 Team work: [ViKi](https://github.com/Innopolis-Robotics-Society/ViKi-dev) (motion capture, 10 people)
+
 and [SingleGoldenRetriever](https://github.com/S1norin/SingleGoldenRetriever) (Kafka messaging, 7 people).
 
 ---
 
 ### How I work
 
-- **Measure before fixing.** My first guess is a hypothesis, not a plan. On Post-Vinyl I talked
-  myself out of my own fix once the numbers showed it made things worse.
-- **Test against real services.** 1,193 tests there, plus a harness that drives the actual Docker
-  stack rather than mocks.
-- **AI agents work under a protocol, never autonomously.** Three states, and only I can mark
-  something complete - about 3,000 lines of that process live in the repo.
+- **Try unconventional solutions.** Can't knock it 'till you try it, it may turn into innovation
+- **Test against real services.** built a harness that drives the actual Docker stack
+- **AI agents work under a protocol, never autonomously.** Three states, and only I can mark something complete
 
 ---
 
