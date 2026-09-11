@@ -44,28 +44,16 @@ and [SingleGoldenRetriever](https://github.com/S1norin/SingleGoldenRetriever) (K
 
 ---
 
-### Three bugs I enjoyed
+### How I work
 
-**A geo-block that was really a DNS leak.** An API kept returning a blocked response to one
-container. The cause was EDNS Client Subnet: their authoritative DNS hands back `127.0.0.1` to any
-resolver that forwards client-subnet data. Confirmed by testing forwarding resolvers against ones
-that strip it, then scoped a custom DNS block to that single container.
-
-**7,000 sockets from one search - and my own fix made it worse.** Capping requested peer responses
-turned out to be local bookkeeping only; asking for 10x fewer cost about 5% *more* sockets. Measuring
-beat guessing. Solved with a query cache, a sliding-window rate limiter and per-track pacing.
-
-**A blank panel with no error.** An embedded UI rendered empty inside an iframe. Reading the host
-page's JS showed it hides and shows tabs without firing a resize event, so the embedded table
-virtualised against a height of zero.
+- **Measure before fixing.** My first guess is a hypothesis, not a plan. On Post-Vinyl I talked
+  myself out of my own fix once the numbers showed it made things worse.
+- **Test against real services.** 1,193 tests there, plus a harness that drives the actual Docker
+  stack rather than mocks.
+- **AI agents work under a protocol, never autonomously.** Three states, and only I can mark
+  something complete - about 3,000 lines of that process live in the repo.
 
 ---
-
-### Also
-
-I build with AI agents under a written protocol where the agent **cannot mark its own work complete** -
-three states, and only I move something into the last one. Post-Vinyl carries about 3,000 lines of
-that process in-repo, plus 1,193 tests and a live harness that runs against the real Docker stack.
 
 **Innopolis University**, B.Sc. Computer Science, 3rd year. GPA 4.4/5.
 
