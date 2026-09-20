@@ -29,7 +29,7 @@ behind it. Nothing at home is exposed directly.
 
 ### Projects
 
-| | | |
+| Name | Description | Stack |
 |---|---|---|
 | [**Post-Vinyl**](https://github.com/Goober-nation/Post-Vinyl) | Automated self-hosted music library: find, fetch, tag, serve | `Python` `FastAPI` `SQLite` `Docker` |
 | [**brainmaper**](https://github.com/Goober-nation/brainmaper) | AI mind-mapping, graph-shaped conversations | `Go` `MongoDB` `React` |
