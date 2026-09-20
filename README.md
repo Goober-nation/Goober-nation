@@ -22,8 +22,7 @@ Looking for a <b>backend or DevOps internship</b>.
 
 A public domain served from home hardware, without opening the home network to it: nginx on the
 cheapest VPS tier forwards traffic, ACME challenges included, to a home server over a private
-Tailscale tunnel. Wildcard certificates come from Let's Encrypt DNS-01 against a registrar with no
-ACME support. Post-Vinyl, a GPU-transcoding media stack, coturn and a Tailscale DERP relay all sit
+Tailscale tunnel. Wildcard certificates come from Let's Encrypt DNS-01. Post-Vinyl, a GPU-transcoding media stack, coturn and a Tailscale DERP relay all sit
 behind it. Nothing at home is exposed directly.
 
 ---
