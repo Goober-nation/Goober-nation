@@ -38,7 +38,7 @@ behind it. Nothing at home is exposed directly.
 | [**evil-corp-ads**](https://github.com/Goober-nation/evil-corp-ads) | Course project on content injection in RAG pipelines | `FAISS` `Qwen2.5-3B` |
 | [**trimui...controller**](https://github.com/Goober-nation/trimui_as_bluetooth_controller) | Handheld console turned into a Bluetooth gamepad | `C` `BlueZ` `ARM` |
 
-Team work: [ViKi](https://github.com/Innopolis-Robotics-Society/ViKi-dev) (motion capture, 10 people)
+Team work: [ViKi](https://github.com/Innopolis-Robotics-Society/ViKi-dev) (motion capture, 5 people, customer)
 
 and [SingleGoldenRetriever](https://github.com/S1norin/SingleGoldenRetriever) (Kafka messaging, 7 people).
 
