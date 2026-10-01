@@ -2,7 +2,7 @@
 
 <p align="center">
 Third-year CS student at Innopolis. I build backend services and run the infrastructure under them.<br>
-Looking for a <b>backend or DevOps internship</b>.
+Looking for a <b>backend or DevOps position</b>.
 </p>
 
 <p align="center">
