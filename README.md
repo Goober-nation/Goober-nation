@@ -23,7 +23,7 @@ Looking for a <b>backend or DevOps position</b>.
 A public domain served from home hardware, without opening the home network to it: nginx on the
 cheapest VPS tier forwards traffic, ACME challenges included, to a home server over a private
 Tailscale tunnel. Wildcard certificates come from Let's Encrypt DNS-01. Post-Vinyl, a GPU-transcoding media stack, coturn and a Tailscale DERP relay all sit
-behind it. Nothing at home is exposed directly.
+behind it
 
 ---
 
@@ -40,13 +40,13 @@ behind it. Nothing at home is exposed directly.
 
 Team work: [ViKi](https://github.com/Innopolis-Robotics-Society/ViKi-dev) (motion capture, 5 people, customer)
 
-and [SingleGoldenRetriever](https://github.com/S1norin/SingleGoldenRetriever) (Kafka messaging, 7 people).
+and [SingleGoldenRetriever](https://github.com/S1norin/SingleGoldenRetriever) (Kafka messaging, 5 people).
 
 ---
 
 ### How I work
 
-- **Try unconventional solutions.** Can't knock it 'till you try it, it may turn into innovation
+- **Try** Can't knock it 'till you try it, it may turn into some innovation
 - **Test against real services.** built a harness that drives the actual Docker stack
 - **AI agents work under a protocol, never autonomously.** Three states, and only I can mark something complete
 
@@ -54,4 +54,6 @@ and [SingleGoldenRetriever](https://github.com/S1norin/SingleGoldenRetriever) (K
 
 **Innopolis University**, B.Sc. Computer Science, 3rd year. GPA 4.4/5.
 
-📫 **goobernation@duck.com**
+![](https://komarev.com/ghpvc/?username=Goober-nation&abbreviated=true&color=cla4de)
+
+📫 **timofei.ruchkin.dev@gmail.com*
