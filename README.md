@@ -54,6 +54,6 @@ and [SingleGoldenRetriever](https://github.com/S1norin/SingleGoldenRetriever) (K
 
 **Innopolis University**, B.Sc. Computer Science, 3rd year. GPA 4.4/5.
 
-![](https://komarev.com/ghpvc/?username=Goober-nation&abbreviated=true&color=cla4de)
+![](https://komarev.com/ghpvc/?username=Goober-nation&color=c1a4de)
 
-📫 **timofei.ruchkin.dev@gmail.com*
+📫 *timofei.ruchkin.dev@gmail.com*
